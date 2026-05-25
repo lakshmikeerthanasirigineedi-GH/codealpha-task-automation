@@ -1,48 +1,92 @@
 # 🏆 Automated File Mover with Python
-🐍 Task Automation with Python Scripts
 
-This project is a simple Python automation script developed as part of my internship task at  CodeAlpha￼.
+This project is a simple Python automation script developed as part of my internship task at CodeAlpha.
 
-📌 Project Objective
+The script automatically moves image files from one folder to another using Python file handling and automation modules.
 
-The goal of this project is to automate a repetitive real-life task using Python.
+---
 
-This script automatically:
+# 🚀 Features
 
-* Detects image files from a source folder
-* Moves .jpg and .png files to another folder
-* Counts total moved files
-* Handles errors gracefully
+- Automatically moves image files
+- Supports `.jpg` and `.png` formats
+- Counts total moved files
+- Beginner-friendly automation project
+- Handles errors using `try-except`
 
-⸻
+---
 
-🚀 Features
+# 🛠 Technologies Used
 
-* Automatic file movement
-* Supports multiple image formats
-* Beginner-friendly Python project
-* Error handling using try-except
-* Uses built-in Python modules
+- Python
+- os module
+- shutil module
 
-⸻
+---
 
-🛠 Technologies Used
+# 📂 Project Structure
 
-* Python
-* os module
-* shutil module
+```text
+project/
+│
+├── pyScripts.py
+├── source/
+│     ├── image1.jpg
+│     ├── image2.png
+│
+└── destination/
+```
 
-⸻
+---
 
-  📖 Concepts Learned
-* File handling in Python
-* Folder automation
-* Loops and conditions
-* Exception handling
-* Working with modules
+# ▶️ How to Run
 
-⸻
+## Step 1
 
-🙌 Internship Task
+Place image files inside the `source` folder.
 
-This project was completed as part of the Python Programming Internship at  CodeAlpha￼.
+Example:
+
+```text
+source/
+    photo1.jpg
+    photo2.png
+```
+
+---
+
+## Step 2
+
+Run the Python file:
+
+```bash
+python3 pyScripts.py
+```
+
+---
+
+# 💬 Example Output
+
+```text
+Moved: photo1.jpg
+Moved: photo2.png
+
+Total files moved: 2
+Task completed successfully!
+```
+
+---
+
+# 📖 Concepts Learned
+
+- File handling in Python
+- Folder automation
+- Loops and conditions
+- Exception handling
+- Working with Python modules
+
+---
+
+# 🙌 Internship Task
+
+This project was completed as part of the Python Programming Internship at CodeAlpha.￼.
